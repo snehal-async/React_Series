@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.main-dish {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.main-dish img {
+  width: 100%;
+  transition: transform 0.8s ease, opacity 0.5s ease;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.thumb {
+  width: 80px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.thumb:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  border: 3px solid green;
+}

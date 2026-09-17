@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #select{
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background-color: aquamarine;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all ease 0.1s;
+        }
+    </style>
+</head>
+<body>
+    <!-- 2. Build a **theme switcher** (Light/Dark) using DOM where the selected theme is saved in 
+    **localStorage** and restored after refresh. -->
+    <select id="select">
+        <option value="" disabled selected>select item</option>
+        <option value="black">Dark</option>
+        <option value="White">Light</option>
+        <option value="red">Red</option>
+
+    </select>
+    <script src="script.js"></script>
+</body>
+</html>

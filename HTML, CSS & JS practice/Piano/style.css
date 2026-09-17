@@ -1,0 +1,72 @@
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 42, 42);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#white{
+    display: flex;
+    gap:2px;
+    position: relative;
+    padding: 55px;
+    border-radius: 8px;
+}
+
+
+
+
+#white button{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+    font-size: 20px;
+    background-color: aliceblue;
+    height: 29vh;
+    width: 4vw;
+    margin: 0px;
+    z-index:1;
+    position:relative;
+    border: 1px solid #000;
+    border-radius: 5px;
+
+} 
+#white button.black{
+  display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+    font-size: 20px;
+  width: 3vw;
+  height: 18vh;
+  color: aliceblue;
+  background: black;
+  position: absolute;
+  margin-top: 0%;
+  z-index: 2;
+  border-radius: 5px;
+  left: 37px;
+}
+
+
+#white button.black:nth-child(2) { left: 6rem; }
+#white button.black:nth-child(4) { left: 10rem; }
+#white button.black:nth-child(7) { left: 17.9rem; }
+#white button.black:nth-child(9) { left: 21.9rem; }
+#white button.black:nth-child(11) { left: 25.6rem; }
+#white button.black:nth-child(14) { left: 33.4rem; }
+#white button.black:nth-child(16) { left: 37.7rem; }
+#white button.black:nth-child(19) { left:41.5rem; }
+#white button.black:nth-child(21) { left: 49.3rem; }
+#white button.black:nth-child(23) { left: 53.4rem; }
+#white button.black:nth-child(26) { left: 57.4rem; }
+#white button.black:nth-child(28) { left: 65.2rem; }
+/* #white button.black:nth-child(30) { left: 69rem; } */

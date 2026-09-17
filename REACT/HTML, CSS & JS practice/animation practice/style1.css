@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#parent{
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent,royalblue);
+    position: absolute;
+    z-index: -1;
+    scale: 1.7;
+    animation-name: rot;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rot{
+    from{
+        rotate: 0;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+.front{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+.box {
+  height: 300px;
+  width: 350px;
+  background-color: rgb(77, 176, 212);
+  border-radius: 1.3rem;
+  color: white;
+  /* rotate: -45deg; */
+}
+
+.btnhome {
+  z-index: 10;
+}
+button {
+  padding: 1.2rem 3.5rem;
+  border-radius: 0.8rem;
+  background-color: rgb(225, 9, 113);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  margin-left: 10px;
+}
+button:active {
+  scale: 0.95;
+}
+
+    </style>
+  </head>
+  <body>
+
+    <!-- 3. Make a **div that rotates 360°** every time you double-click it,
+     and the rotation count should be shown inside the div.  
+   (Use events + CSS + DOM) -->
+
+    <div id="main">
+     <div class="box"><h1>Rotate</h1></div>
+    <div class="btnhome">
+        <button class="left">Left</button>
+      <button class="right">Right</button>
+    </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
