@@ -42,7 +42,6 @@
 //     </div>
 //   )
 // }
-
 // export default App
 
 import React, { useState } from 'react'
@@ -160,10 +159,6 @@ const App = () => {
     setProductArr(res);
     
   }
-
-
-
-
   return (
     <div className="h-screen flex-col items-center p-4 gap-4">
       <h1 className='text-2xl font-bold p-4 flex justify-center'>Our products</h1>
